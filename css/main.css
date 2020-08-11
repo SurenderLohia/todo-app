@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+}
+
+.wrap {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* Flex */
+.flex {
+  display: flex;
+}
+
+.align-center {
+  align-items: center;
+}
+
+
+/* Typo */
+.font-weight-normal {
+  font-weight: normal;
+}
+
+/* Margins */
+.mr1 {
+  margin-right: 10px;
+}
+
+.mt0 {
+  margin-top: 0;
+}
+
+.mb0 {
+  margin-bottom: 0;
+}
+
+.mla {
+  margin-left: auto;
+}
+
+.text-btn {
+  background-color: transparent;
+  padding: 0;
+  border: 0;
+  cursor: pointer;
+}
+
+.text-btn:focus {
+  outline: 0;
+}
+
+.danger {
+  color: red;
+}
+
+
+/* Todo List */
+.add-todo {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.todo-list {
+  padding-left: 0;
+}
+
+.todo-list-item {
+  padding: 10px 10px 10px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.todo-list-item input:checked + label {
+ text-decoration: line-through;
+}
+
+.delete-btn {
+  padding: 5px;
+}
